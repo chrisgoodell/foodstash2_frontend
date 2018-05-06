@@ -87,7 +87,7 @@ export let getRecipesBySearch = (searchString) =>
 
 
 export let createAccount = (user) =>
-  fetch('https://shrouded-citadel-15486.herokuapp.com/users', {
+  fetch('/users', {
     body: JSON.stringify(user),
     method: 'POST',
     headers: {
