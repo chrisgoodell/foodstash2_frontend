@@ -1,4 +1,4 @@
-let url = `https://shrouded-citadel-15486.herokuapp.com/`;
+// let url = `https://shrouded-citadel-15486.herokuapp.com/`;
 
 export let getAllRecipes = () =>
     fetch('/all-recipes')
@@ -87,7 +87,7 @@ export let getRecipesBySearch = (searchString) =>
 
 
 export let createAccount = (user) =>
-  fetch(`${url}/users`, {
+  fetch('https://shrouded-citadel-15486.herokuapp.com/users', {
     body: JSON.stringify(user),
     method: 'POST',
     headers: {
