@@ -11,7 +11,7 @@
     "redux": "^4.0.0"
   },
   // "proxy": "http://localhost:3000/",
-  "proxy": "https://shrouded-citadel-15486.herokuapp.com/",
+  // "proxy": "https://shrouded-citadel-15486.herokuapp.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
